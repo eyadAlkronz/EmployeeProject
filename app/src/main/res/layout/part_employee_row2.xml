@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart= "16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/background2"
+    >
+
+
+    <TextView
+        android:id="@+id/partTimelabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Part  Time Employee "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/image_emp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/emp1"
+        android:scaleType="fitXY"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/partTimelabel"
+
+        />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Id : "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/image_emp"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@+id/partTimelabel"
+        />
+
+    <TextView
+        android:layout_below="@+id/partTimelabel"
+
+        android:id="@+id/id_emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="1"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:layout_toRightOf="@+id/id"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:paddingStart="16dp"
+        android:layout_below="@+id/id_emp"
+        android:layout_toRightOf="@id/image_emp"
+        />
+
+    <TextView
+        android:id="@+id/name_emp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="eyad Al-kronz"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:paddingStart="16dp"
+        android:layout_below="@+id/id_emp"
+        android:layout_toRightOf="@id/name"
+        />
+
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Age : "
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/name_emp"
+        android:layout_toRightOf="@+id/image_emp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        />
+
+    <TextView
+        android:id="@+id/age_emp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="21"
+        android:textSize="20sp"
+        android:textColor="#ff00"
+        android:layout_below="@+id/name_emp"
+        android:layout_toRightOf="@+id/age"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Salary/Hour"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/age_emp"
+        android:layout_toRightOf="@+id/image_emp"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        />
+
+
+    <TextView
+        android:id="@+id/salaryHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2500"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:layout_toRightOf="@+id/salary"
+        android:layout_alignBaseline="@+id/salary"
+        android:layout_marginTop="8dp"
+        android:paddingStart="16dp"
+        android:layout_marginStart="16dp"
+        />
+
+
+
+</RelativeLayout>
